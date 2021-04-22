@@ -1,7 +1,7 @@
 
 # Part 1
 
-### Part 1a
+## Part 1a
 
 var
 1. Line 9 prints "values added: 20"
@@ -15,7 +15,7 @@ const
 1. Line 9 causes an error. result is reassigned on line 7, which is not allowed because it was declared as a const variable.
 2. Line 13 also causes an error, because result is reassigned on line 7.
 
-### Part 1b
+## Part 1b
 
 1. Line 12 prints the value of prices.length. This is because i is function scoped, and the value of i can be obtained anywhere within the function.
 2. Line 13 prints the discounted price of the final element in the prices array.
@@ -57,6 +57,6 @@ const
 
 16. Answer in file part1b-question16.js.
 
-17.
+17. If passed in [1,2,3], the function returns [2,4,6]. For each index in the array, the index is passed to the callback function, which doubles the value at that index of the array.
 18. Answer in file part1b-question18.js
 19. The code prints 1, 4, 3, 2. 1 and 4 are printed first, then the first setTimeout prints 3 with no delay. After 1000 milliseconds, the final setTimeout prints 2.
